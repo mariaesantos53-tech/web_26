@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulário 2 </title>
+</head>
+
+<body>
+<form action="" method="post">
+
+    <label>
+        nome do produto:
+        <input name="form_nome_do_produto" type="text" placeholder="digite o nome do produto" required>
+    </label>
+    <br>
+    <br>
+
+    <label>
+        descrição:
+        <textarea name="form_descricao" rows="10" cols="50" placeholder="descreva seu produto" required></textarea>
+    </label>
+
+    <br>
+    <br>
+
+    <label>qual a categoria do seu produto ? </label>
+    <br>
+<!--no input radio os names devem ser  igual para tudos,so muda o valor    -->
+    <label>
+        <input name="form_categoria" value="1" type="radio">
+        eletrônicos
+    </label>
+
+    <br>
+
+    <label>
+        <input name="form_categoria" value="2" type="radio">
+        Livros
+    </label>
+
+    <br>
+
+    <label>
+        <input name="form_categoria" value="3" type="radio">
+        Brinquedos
+    </label>
+
+    <br>
+
+
+    <label>
+        <input name="form_categoria" value="4" type="radio">
+        Esportes
+    </label>
+
+    <br>
+
+
+    <label>
+        <input name="form_categoria" value="5" type="radio">
+        Calçados
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        País de origem do produto:
+        <select name="form_pais">
+            <option value="brasil">Brasil</option>
+            <option value="china">China</option>
+            <option value="estados unidos">Estados Unidos</option>
+            <option value="japao">Japão</option>
+            <option value="franca">França</option>
+
+        </select>
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        Preço:
+        <input name="form_preco" type="number" placeholder="digite o preço" required>
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        data de fabricação:
+        <input name="form_data_fabricacao" type="date" required>
+    </label>
+
+    <br>
+    <br>
+
+
+    <button type="submit">enviar</button>
+    <button type="reset">limpar</button>
+
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

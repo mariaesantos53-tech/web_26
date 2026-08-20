@@ -1,0 +1,25 @@
+body{
+    background-color: violet;
+}
+h1{
+    color: mediumpurple;
+    background-color: black;
+    text-align: center;
+/*    para alinhar o texto */
+    font-family: "Arial Black";
+}
+
+/*hover é quando o mouse passa por cima */
+h1:hover{
+    color:blue;
+}
+
+/*o ponto "." chama a class */
+.atividade{
+    color: white;}
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+/*    bold para ficar negrito*/
+}

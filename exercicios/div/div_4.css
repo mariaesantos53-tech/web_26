@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    font-family: sans-serif;
+}
+
+/* Links em branco e negrito como na imagem */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* para o GRID horizontal */
+.pai {
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding: 40px; /* Afasta as bordas da tela */
+    background: #f6435b; /* Cor de fundo  */
+
+    display: grid;
+    /* Cria colunas horizontais automaticamente conforme o espaço da tela */
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+
+    gap: 25px; /* Espaçamento igual entre os blocos */
+    align-content: start;
+}
+
+
+.filho, .filho1, .filho2, .filho3, .filho4, .filho5,
+.filho6, .filho7, .filho8, .filho9, .filho10, .filho11 {
+    aspect-ratio: 1 / 1; /* Força a largura e altura a serem sempre iguais (Quadrado) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+/* Meses com 31 dias -> ROSA */
+.filho, .filho2, .filho4, .filho6, .filho7, .filho9, .filho11 {
+    background: hotpink;
+}
+
+/* Meses com 30 dias -> VERMELHO */
+.filho3, .filho5, .filho8, .filho10 {
+    background: crimson;
+}
+
+/* Mês com 28 dias (Fevereiro) -> VERDE */
+.filho1 {
+    background: limegreen;
+}
+

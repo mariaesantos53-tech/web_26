@@ -1,0 +1,34 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pai {
+    width: 150px;
+    height: 100%;
+    border: none;
+    background: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.filho {
+    width: 90px;
+    height: 50px;
+    background: wheat;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #720a36;
+}
+
